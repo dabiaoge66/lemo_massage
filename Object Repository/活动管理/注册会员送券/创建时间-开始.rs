@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>创建时间-开始</name>
+   <tag></tag>
+   <elementGuidId>7c423765-75a0-4039-a539-d1f6a52a2141</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;start_created_time&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/活动管理-注册会员送券</value>
+      <webElementGuid>2d4da1ca-d3a7-4242-8c22-54b9f078dadc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

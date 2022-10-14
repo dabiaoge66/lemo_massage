@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>订单状态</name>
+   <tag></tag>
+   <elementGuidId>6d203ae5-8449-4102-8638-56c037c31522</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;status&quot;]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/订单中心-充值订单</value>
+      <webElementGuid>387a3a8f-a5c4-445c-bba1-971a2809e57e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

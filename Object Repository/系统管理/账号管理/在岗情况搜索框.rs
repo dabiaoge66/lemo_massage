@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>在岗情况搜索框</name>
+   <tag></tag>
+   <elementGuidId>8d8f6403-1a13-46d5-b4e0-2c5b016022d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;is_post&quot;]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/系统管理-账号管理</value>
+      <webElementGuid>a2a56a26-abc9-4382-ac5d-8b4938fb9684</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

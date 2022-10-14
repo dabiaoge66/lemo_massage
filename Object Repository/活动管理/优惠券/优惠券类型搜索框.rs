@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>优惠券类型搜索框</name>
+   <tag></tag>
+   <elementGuidId>d1f0047a-dd33-4e09-8347-1ab9932edce7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;classify&quot;]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/活动管理-优惠券</value>
+      <webElementGuid>3e04cdd8-ae45-464f-a8df-5cc41fefc959</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

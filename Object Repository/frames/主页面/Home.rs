@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Home</name>
+   <tag></tag>
+   <elementGuidId>560c138d-6997-4257-8798-3aea1efe4c4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>.layui-show>[src=&quot;/home/toIncome&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/home/toIncome']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/home/toIncome</value>
+      <webElementGuid>75174fd8-ebac-4bf7-a895-4bcf7e9893dd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>时间-日期入口1st</name>
+   <tag></tag>
+   <elementGuidId>2c20c403-2fb0-4ac0-b65d-b5206ae578f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.el-date-table__row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/首页-门店数据</value>
+      <webElementGuid>b758a2c6-767b-4d6a-8d3a-f1dd0193d409</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

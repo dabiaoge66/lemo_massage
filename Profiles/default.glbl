@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>测试地址</description>
+      <initValue>'http://lemo-saas.lemobar.cn/toLogin'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>测试账号</description>
+      <initValue>'admin'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>测试密码</description>
+      <initValue>'123456a'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>逆向查询公共测试数据</description>
+      <initValue>'notexist'</initValue>
+      <name>error_search_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据(查询时间-年)</description>
+      <initValue>2022</initValue>
+      <name>search_year</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据(查询时间-月)</description>
+      <initValue>'二月'</initValue>
+      <name>search_month</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据(查询时间-日)</description>
+      <initValue>12</initValue>
+      <name>search_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理，门店名称模糊查询测试数据</description>
+      <initValue>'a_s'</initValue>
+      <name>vague_store_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理，所属商家取值查询测试数据</description>
+      <initValue>'UItestData_merchantName'</initValue>
+      <name>select_merchant_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理，所属城市取值查询测试数据</description>
+      <initValue>'福州市'</initValue>
+      <name>select_city_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理，门店名称精确查询测试数据</description>
+      <initValue>'UItestData_storeName'</initValue>
+      <name>exact_store_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理(新增窗口门店头图本地路径)</description>
+      <initValue>'D:\\Download\\图片资源\\其他图片资源\\headImg.png'</initValue>
+      <name>headImg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理(新增窗口门店banner本地路径)</description>
+      <initValue>'D:/Download/图片资源/其他图片资源/banner.png'</initValue>
+      <name>banner</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户名称精确查询测试数据</description>
+      <initValue>'UItestData_merchantName'</initValue>
+      <name>exact_merchant_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户管理所属区域取值查询测试数据</description>
+      <initValue>'福建省'</initValue>
+      <name>select_place_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户名称模糊查询测试数据</description>
+      <initValue>'a_m'</initValue>
+      <name>vague_merchant_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理，新增排班窗口结束时间</description>
+      <initValue>'18:00'</initValue>
+      <name>scheduleEndTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理，新增排班窗口开始时间</description>
+      <initValue>'09:00'</initValue>
+      <name>scheduleBeginTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理，班次查询自定义数据</description>
+      <initValue>'早班'</initValue>
+      <name>shift_search_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理开始时间搜索栏自定义数据</description>
+      <initValue>'2022-01-06'</initValue>
+      <name>schedule_begin_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理结束时间搜索栏自定义数据</description>
+      <initValue>'2022-09-21'</initValue>
+      <name>schedule_end_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理录入人模糊查询测试数据</description>
+      <initValue>'理'</initValue>
+      <name>vague_entry_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理录入人精确查询测试数据</description>
+      <initValue>'管理员'</initValue>
+      <name>exact_entry_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理，技师姓名模糊查询测试数据</description>
+      <initValue>'iT'</initValue>
+      <name>vague_tech_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理，技师姓名精确查询测试数据</description>
+      <initValue>'ForUiTest'</initValue>
+      <name>exact_tech_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理，门店名称取值查询测试数据</description>
+      <initValue>'UItestData_storeName'</initValue>
+      <name>select_store_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-服务项目，服务名称模糊查询测试数据</description>
+      <initValue>'70'</initValue>
+      <name>vague_service_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-服务项目，服务名称精确查询测试数据</description>
+      <initValue>'脾胃调理+扶阳灸80分钟'</initValue>
+      <name>exact_service_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-服务项目，服务时长精确查询测试数据</description>
+      <initValue>'60分钟'</initValue>
+      <name>exact_service_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理，录入人模糊查询测试数据</description>
+      <initValue>'泽'</initValue>
+      <name>vague_entry_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理录入人精确查询测试数据</description>
+      <initValue>'许泽强'</initValue>
+      <name>exact_entry_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理，开始时间-开始测试数据</description>
+      <initValue>'2022-08-01 00:00:00'</initValue>
+      <name>vacation_start_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理，开始时间-结束测试数据</description>
+      <initValue>'2022-10-01 00:00:00'</initValue>
+      <name>vacation_end_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠，活动创建时间-开始时间</description>
+      <initValue>'2022-07-01 00:00:00'</initValue>
+      <name>found_start_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠，活动创建时间-结束时间</description>
+      <initValue>'2022-10-01 23:59:59'</initValue>
+      <name>found_end_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>页面公共元素，总计栏元素位置</description>
+      <initValue>'layui-laypage-count'</initValue>
+      <name>total_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>页面公共元素，下一页按钮元素位置</description>
+      <initValue>'layui-laypage-next'</initValue>
+      <name>next_page_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>页面公共元素，列表数据为空时展示元素的位置</description>
+      <initValue>'layui-none'</initValue>
+      <name>empty_tips</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询列表为空时的提示</description>
+      <initValue>'el-table__empty-text'</initValue>
+      <name>empty_text</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页门店数据技师情况栏的空数据提示</description>
+      <initValue>'#app .title+.m-auto-30+.title+.m-auto-30+.title+.m-auto-30 .el-table__empty-text'</initValue>
+      <name>empty_text_tech</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间年份下拉框</description>
+      <initValue>'.el-picker-panel .el-picker-panel__content .el-year-table .available .cell'</initValue>
+      <name>time_year_1st</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间月份下拉框</description>
+      <initValue>'.el-picker-panel .el-month-table td .cell'</initValue>
+      <name>time_month_1st</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间日期下拉框</description>
+      <initValue>'.el-picker-panel .el-date-table  .available div span'</initValue>
+      <name>time_date_1st</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间年份下拉框</description>
+      <initValue>'.el-picker-panel~.el-picker-panel .el-picker-panel__content .el-year-table .available .cell'</initValue>
+      <name>time_year_2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间月份下拉框</description>
+      <initValue>'.el-picker-panel ~ .el-picker-panel .el-month-table td .cell'</initValue>
+      <name>time_month_2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据查询时间日期下拉框</description>
+      <initValue>'.el-picker-panel ~ .el-picker-panel .el-date-table__row  .available div span'</initValue>
+      <name>time_date_2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页门店数据门店情况总计栏</description>
+      <initValue>'#app > div:nth-child(4) > div > div > div > div > .el-pagination__total'</initValue>
+      <name>store_total_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据技师情况总计栏</description>
+      <initValue>'#app > div:nth-child(6) > div > div > div.page-box > div > span.el-pagination__total'</initValue>
+      <name>technician_total_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据门店情况下一页按钮</description>
+      <initValue>'//*[@id=&quot;app&quot;]/div[2]/div/div/div[2]/div/button[2]'</initValue>
+      <name>store_next_page</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据技师情况下一页按钮</description>
+      <initValue>'//*[@id=&quot;app&quot;]/div[3]/div/div/div[2]/div/button[2]'</initValue>
+      <name>technician_next_page</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据门店情况查询结果主体</description>
+      <initValue>'.title:nth-child(3) + .m-auto-30 .el-table__row'</initValue>
+      <name>store_data_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据技师情况查询主体</description>
+      <initValue>'.title:nth-child(5) + .m-auto-30 .el-table__row'</initValue>
+      <name>technician_data_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>首页-门店数据门店情况所属商户\门店情况所属门店\技师情况所属商户\技师情况所属门店下拉框值</description>
+      <initValue>'[x-placement=&quot;bottom-start&quot;] > .el-scrollbar > .el-scrollbar__wrap > .el-scrollbar__view  > li > span'</initValue>
+      <name>store_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户管理主页面查询结果的商户名称元素位置（列表）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;]'</initValue>
+      <name>merchant_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理主页面查询结果的门店名称元素位置（列表，门店字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;] > div'</initValue>
+      <name>store_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理主页面查询结果的门店名称元素位置（列表，城市字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;city&quot;] > div'</initValue>
+      <name>store_citys_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理所属城市下拉框值</description>
+      <initValue>'.eova-combo-hide ~[value]'</initValue>
+      <name>city_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-门店管理所属商家下拉框值</description>
+      <initValue>'.eova-combo-panel+.eova-combo-panel [value]'</initValue>
+      <name>merchant_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户管理所属区域下拉框值</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;province&quot;] > div'</initValue>
+      <name>merchant_provinces_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>商户管理-商户管理所属区域下拉框值</description>
+      <initValue>'.eova-combo-panel [value]~[value]'</initValue>
+      <name>province_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理新增窗口排班日期的年份列表</description>
+      <initValue>'[x-placement=&quot;bottom-start&quot;] .el-picker-panel__content .el-year-table .available .cell'</initValue>
+      <name>scheduleYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理新增窗口排班日期的月份列表</description>
+      <initValue>'[x-placement=&quot;bottom-start&quot;] .el-picker-panel__content .el-month-table .cell'</initValue>
+      <name>scheduleMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理新增窗口排班日期的日列表</description>
+      <initValue>'[x-placement=&quot;bottom-start&quot;] .el-picker-panel__content .el-date-table__row .available'</initValue>
+      <name>scheduleDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理新增窗口排班日期的年份入口</description>
+      <initValue>'[x-placement=&quot;bottom-start&quot;] .el-date-picker__header .el-date-picker__header-label:nth-child(3)'</initValue>
+      <name>scheduleYearEntrance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理主页面查询结果的技师名称</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;tech_name&quot;]'</initValue>
+      <name>schedule_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理主页面查询结果的录入人名称</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;operator&quot;]'</initValue>
+      <name>schedule_entry_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理；床位管理查询主体（列表，门店名称字段）</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;sid&quot;] > div'</initValue>
+      <name>schedule_sids_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理门店名称下拉框值</description>
+      <initValue>'.eova-combo-panel [value]~[value]'</initValue>
+      <name>sid_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理查询主体（列表，班次字段）</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;shift&quot;] > div'</initValue>
+      <name>schedule_shifts_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理班次下拉框值</description>
+      <initValue>'.eova-combo-panel [value]~[value]'</initValue>
+      <name>shift_box_values</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理查询主体（列表，开始日期字段）</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;start_date&quot;] > div'</initValue>
+      <name>schedule_start_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-排班管理查询主体（列表，结束日期）</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;end_date&quot;] > div'</initValue>
+      <name>schedule_end_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-服务项目查询主体（列表，服务称字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;] > div'</initValue>
+      <name>service_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-服务项目查询主体（列表，服务时长字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;duration&quot;] > div'</initValue>
+      <name>service_times_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-床位管理，商户名称下拉框值</description>
+      <initValue>'.layui-layout-body .eova-combo-panel+.eova-combo-panel div'</initValue>
+      <name>merchant_box_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-床位管理查询主体（列表，门店名称字段）</description>
+      <initValue>'[lay-id=&quot;master_grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;sid&quot;] > div'</initValue>
+      <name>sid_search_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-床位管理/休假管理，门店名称/技师姓名下拉框值</description>
+      <initValue>'.layui-layout-body style+.eova-combo-panel div'</initValue>
+      <name>sid_box_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理查询主体(列表，技师姓名字段)</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;uid&quot;] > div'</initValue>
+      <name>tech_search_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理查询主体(列表，录入人字段)</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;operator&quot;] > div'</initValue>
+      <name>entry_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>产商品管理-休假管理查询主体（列表，开始时间字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;start_time&quot;] > div'</initValue>
+      <name>vacation_begin_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠查询主体(列表，活动创建时间)</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;created_time&quot;] > div'</initValue>
+      <name>start_search_ele</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

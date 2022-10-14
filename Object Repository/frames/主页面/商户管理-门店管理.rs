@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>商户管理-门店管理</name>
+   <tag></tag>
+   <elementGuidId>1c752d50-7550-40a8-968a-f6299bbdc662</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/single_grid/list/store_manage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/single_grid/list/store_manage</value>
+      <webElementGuid>9016eeb4-da4c-485c-8237-7b8eaf9df29d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

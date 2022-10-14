@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>商户管理-商户管理</name>
+   <tag></tag>
+   <elementGuidId>a8fe7586-bb23-4c37-ba51-482a29e89d89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'LAY_app_body']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//*[@id=&quot;LAY_app_body&quot;]/div/iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/single_grid/list/business_manage</value>
+      <webElementGuid>aa260b6e-e157-4bd4-ba9d-eafe696414a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

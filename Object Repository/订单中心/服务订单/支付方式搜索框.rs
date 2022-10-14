@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>支付方式搜索框</name>
+   <tag></tag>
+   <elementGuidId>6b24bda3-bda7-4cf0-ad22-c664784cff71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;pay_type&quot;]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/订单中心-服务订单</value>
+      <webElementGuid>dec1cfaa-afc4-4be1-bf57-788c079c6b5e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>空值查询</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f06c91b-872f-43b8-befc-e41bd14822dd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f8f0fa0-7285-4586-998e-7e9c3716e1c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>this.null</defaultValue>
+      <description></description>
+      <id>5f8f0fa0-7285-4586-998e-7e9c3716e1c0</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

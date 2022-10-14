@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>时间-年份入口1st</name>
+   <tag></tag>
+   <elementGuidId>8e62c2fe-2cdd-4e42-b4aa-48aaec2ab4c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-label=&quot;上个月&quot;]+[role=&quot;button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/首页-门店数据</value>
+      <webElementGuid>54eda04b-a0f7-4660-b5d3-1858e309993c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
