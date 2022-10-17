@@ -22,19 +22,19 @@ import java.text.SimpleDateFormat
 //String[] search_name = search_data.split(',')
 //
 //System.out.println(search_name[3].split('-')[0])
-String s = '2022-08-12 10:00:00'
-
-SimpleDateFormat time_test = new SimpleDateFormat("yyyy-MM-dd")
-
-Date test = time_test.parse(s)
-
-
-long ts2 = test.getTime()
-
-
-res2 = String.valueOf(ts2)
-
-System.out.println(ts2)
+//String s = '2022-08-12 10:00:00'
+//
+//SimpleDateFormat time_test = new SimpleDateFormat("yyyy-MM-dd")
+//
+//Date test = time_test.parse(s)
+//
+//
+//long ts2 = test.getTime()
+//
+//
+//res2 = String.valueOf(ts2)
+//
+//System.out.println(ts2)
 
 //for (int i=0;i<search_name.size();i++) {
 //	System.out.println(search_name[i])
@@ -53,3 +53,12 @@ System.out.println(ts2)
 //
 //WebUI.verifyEqual(Exception.printStackTrace([]), NoSuchElementException.getSupportUrl())
 //
+
+
+String a = ''
+
+String b = 'abc'
+
+c = a.equals(b)
+
+System.out.println(c)

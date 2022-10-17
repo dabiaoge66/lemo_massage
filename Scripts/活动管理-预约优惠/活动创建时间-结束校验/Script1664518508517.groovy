@@ -13,7 +13,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-String search_name = GlobalVariable.found_end_time
+String search_name = GlobalVariable.activity_end_time
 
 List compare_names = [[By.cssSelector(GlobalVariable.start_search_ele)], '日期比较',
 	 By.className(GlobalVariable.empty_tips), [true]]  //  [index=3]-字段是否在列表存在(boolean)

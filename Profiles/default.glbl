@@ -180,6 +180,106 @@
       <name>found_end_time</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>活动管理-预约优惠活动名称模糊查询测试数据</description>
+      <initValue>'y_n'</initValue>
+      <name>vague_activity_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠活动名称精确查询测试数据</description>
+      <initValue>'activity_name'</initValue>
+      <name>exact_activity_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠状态描述：启用/禁用</description>
+      <initValue>'启用'</initValue>
+      <name>discount_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠活动开始时间</description>
+      <initValue>'2022-07-12 00:00:00'</initValue>
+      <name>activity_start_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠活动结束时间</description>
+      <initValue>'2022-08-12 23:59:59'</initValue>
+      <name>activity_end_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券；优惠券名称模糊查询测试数据</description>
+      <initValue>'n_n'</initValue>
+      <name>vague_coupon_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券；优惠券名称精确查询测试数据</description>
+      <initValue>'coupon_name'</initValue>
+      <name>exact_coupon_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券；优惠券类型取值查询测试数据</description>
+      <initValue>'折扣券'</initValue>
+      <name>coupon_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券状态描述：启用/禁用</description>
+      <initValue>'禁用'</initValue>
+      <name>coupon_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券创建时间-开始时间测试数据</description>
+      <initValue>'2022-04-02 00:00:00'</initValue>
+      <name>creat_coupon_start</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券创建时间-结束时间测试数据</description>
+      <initValue>'2022-08-14 23:59:59'</initValue>
+      <name>creat_coupon_end</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理权益卡名称模糊查询测试数据</description>
+      <initValue>'s_c'</initValue>
+      <name>vague_card_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理权益卡名称精确查询测试数据</description>
+      <initValue>'rights__card'</initValue>
+      <name>exact_card_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理状态描述：启用/禁用</description>
+      <initValue>'启用'</initValue>
+      <name>card_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理创建时间-开始时间测试数据</description>
+      <initValue>'2022-03-28 00:00:00'</initValue>
+      <name>creat_card_start</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理创建时间-结束时间测试数据</description>
+      <initValue>'2022-08-08 23:59:59'</initValue>
+      <name>creat_card_end</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券活动名称模糊查询测试数据</description>
+      <initValue>'n_d'</initValue>
+      <name>vague_delivery_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券状态描述：启用/禁用</description>
+      <initValue>'禁用'</initValue>
+      <name>coupon_delivery_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券创建时间-结束时间测试数据</description>
+      <initValue>'2022-02-11 23:59:59'</initValue>
+      <name>creat_delivery_end</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券创建时间-开始时间测试数据</description>
+      <initValue>'2022-02-08 00:00:00'</initValue>
+      <name>creat_delivery_start</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>页面公共元素，总计栏元素位置</description>
       <initValue>'layui-laypage-count'</initValue>
       <name>total_ele</name>
@@ -305,6 +405,11 @@
       <name>province_box_values</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>活动管理-注册会员送券活动名称精确查询测试数据</description>
+      <initValue>'coupon_delivery'</initValue>
+      <name>exact_delivery_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>产商品管理-排班管理新增窗口排班日期的年份列表</description>
       <initValue>'[x-placement=&quot;bottom-start&quot;] .el-picker-panel__content .el-year-table .available .cell'</initValue>
       <name>scheduleYear</name>
@@ -405,8 +510,88 @@
       <name>vacation_begin_time</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>活动管理-预约优惠查询主体（列表，活动名称）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;] > div'</initValue>
+      <name>activity_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>活动管理-预约优惠查询主体(列表，活动创建时间)</description>
       <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;created_time&quot;] > div'</initValue>
       <name>start_search_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠查询主体（列表，活动状态字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;is_enable&quot;] > div'</initValue>
+      <name>activity_status_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-预约优惠状态下拉框值</description>
+      <initValue>'.eova-combo-panel [value]~[value]'</initValue>
+      <name>discount_box_data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券查询主体（列表，优惠券名称字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;] > div'</initValue>
+      <name>coupon_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券查询主体（列表，优惠券类型字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;classify&quot;] > div'</initValue>
+      <name>coupon_type_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券查询主体（列表，创建时间字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;created_time&quot;] > div'</initValue>
+      <name>coupon_created_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券查询主体（列表，状态字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;is_enable&quot;] > div'</initValue>
+      <name>coupon_state_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-优惠券类型、状态搜索框下拉框值</description>
+      <initValue>'.eova-combo-panel [value]'</initValue>
+      <name>coupon_type_value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理查询主体（列表，创建时间字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;created_time&quot;] > div'</initValue>
+      <name>card_created_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理查询主体（列表，权益卡名称字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;right_name&quot;] > div'</initValue>
+      <name>card_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理查询主体（列表，状态字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;is_enable&quot;] > div'</initValue>
+      <name>card_state_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-权益卡管理；状态下拉框值</description>
+      <initValue>'.eova-combo-panel [value]'</initValue>
+      <name>card_status_value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券查询主体（列表，创建时间字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;created_time&quot;] > div'</initValue>
+      <name>delivery_created_time</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券查询主体（列表，活动名称字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;name&quot;] > div'</initValue>
+      <name>delivery_names_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券查询主体（列表，状态字段）</description>
+      <initValue>'[lay-id=&quot;grid&quot;] div.layui-table-box div.layui-table-main table.layui-table tbody tr td[data-field=&quot;is_enable&quot;] > div'</initValue>
+      <name>delivery_state_ele</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>活动管理-注册会员送券；状态下拉框值</description>
+      <initValue>'.eova-combo-panel [value]'</initValue>
+      <name>delivery_status_value</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

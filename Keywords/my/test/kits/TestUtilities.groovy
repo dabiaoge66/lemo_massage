@@ -495,18 +495,18 @@ class TestUtilities {
 
 			search_count_2 = total_count
 		}
-		for (int i = 0; i <= search_count_1; i++) {
-			if (i == search_count_1 - 1) {  //  避免多页数据下最后一页遍历中产生索引越界
+		for (int i = 0; i <= search_count_1; i++) {  // i=页数
+			if (i == search_count_1) {  //  避免多页数据下最后一页遍历中产生索引越界
 				//  处理一下总计数是分页条数的倍数的情况
 				search_count_2 = total_count % page_size == 0 ? page_size : total_count % page_size
 			}
 
-			for (int j = 0; j < search_count_2; j++) {
+			for (int j = 0; j < search_count_2; j++) {  // j=列表数据数
 				String search_types = compare_name[1]
 
 				String[] search_type = search_types.split(',')
 
-				for (int k=0; k<search_type.length; k++) {
+				for (int k=0; k<search_type.size(); k++) {  // k=查询次数
 					if (compare!=null) {
 						select_search_type(search_type[k], total_count, search_name, compare_name, j, k, compare)
 					} else {
@@ -534,6 +534,7 @@ class TestUtilities {
 		System.out.println('每一页显示数量：' + page_size)
 
 		WebUI.switchToDefaultContent()
+		// 后续可以考虑return出去，自由判断；否则默认正向用例可查询到数据
 		assert search_result_count == total_count
 	}
 }
