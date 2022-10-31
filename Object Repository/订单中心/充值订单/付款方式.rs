@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>付款方式</name>
+   <tag></tag>
+   <elementGuidId>dbaf5205-9b82-4c2e-bb12-28b055014aa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;channel&quot;]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/订单中心-充值订单</value>
+      <webElementGuid>e7778468-74c4-43cc-8d91-288b0fca0a04</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
