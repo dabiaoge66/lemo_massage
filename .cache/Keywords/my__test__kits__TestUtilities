@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "keywordFileContentHash": "A6058B2FF9A11D15277A83FDD8DA6B51",
-=======
-  "keywordFileContentHash": "1363D638095A19A674335697A831E9B4",
->>>>>>> 5a42abf Revert "new "
+  "keywordFileContentHash": "9151B97D22D9CF716DA58C4E3E978DF6",
   "keywordClasses": [
     {
       "name": "my.test.kits.TestUtilities",
