@@ -239,51 +239,12 @@ class TestUtilities {
 				if (is_error_search(total_count, compare_name, search_name.split(',')[num])) {
 					try {
 						if (compare_name[3][num]) {
-							if (compare != null) {
-								switch(compare) {
-									case '=':
-										boolean is_big = Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) < search_name.split(',')[num]
+							boolean is_equals = driver.findElements(compare_name[0][num])[index].text.equals(search_name.split(',')[num])
 
-										System.out.println('查询字段' + ' ‘' + search_name.split(',')[num] + '’' + '是否等于预期' + ' ‘'
-												+ driver.findElements(compare_name[0][num])[index].text +'’' + ' ：' + is_big)
+							System.out.println('查询字段' + ' ‘' + search_name.split(',')[num] + '’' + '与预期' + ' ‘' +
+									driver.findElements(compare_name[0][num])[index].text +'’' + ' 是否一致：' + is_equals)
 
-										break
-									case '<':
-										boolean is_less = Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) < search_name.split(',')[num]
-
-										System.out.println('查询字段' + ' ‘' + search_name.split(',')[num] + '’' + '是否小于预期' + ' ‘'
-												+ driver.findElements(compare_name[0][num])[index].text +'’' + ' ：' + is_less)
-										break
-									case '>':
-										boolean is_big = Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) > search_name.split(',')[num]
-
-										System.out.println('查询字段' + ' ‘' + search_name.split(',')[num] + '’' + '是否大于预期' + ' ‘'
-												+ driver.findElements(compare_name[0][num])[index].text +'’' + ' ：' + is_big)
-										break
-									case '∪':
-										boolean is_union = Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) > search_name.split(',')[num].split('/')
-										[0]|| Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) < search_name.split(',')[num].split('/')[1]
-
-										System.out.println('预期 ‘' + driver.findElements(compare_name[0][num])[index].text) + '’ 是否大于 ‘'
-										+ search_name.split(',')[num].split('/')[0] + '’ 或小于 ‘' + search_name.split(',')[num].split('/')[1] + '’ ：' + is_union
-										break
-									case '∩':
-										boolean is_intersect = Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) > search_name.split(',')[num].split('/')
-										[0]&& Integer.parseInt(driver.findElements(compare_name[0][num])[index].text) < search_name.split(',')[num].split('/')[1]
-
-										System.out.println('预期 ‘' + driver.findElements(compare_name[0][num])[index].text) + '’ 是否大于 ‘'
-										+ search_name.split(',')[num].split('/')[0] + '’ 且小于 ‘' + search_name.split(',')[num].split('/')[1] + '’ ：' + is_intersect
-										break
-								}
-							} else {
-								boolean is_equals = driver.findElements(compare_name[0][num])[index].text.equals(search_name.split(',')[num])
-
-								System.out.println('查询字段' + ' ‘' + search_name.split(',')[num] + '’' + '与预期' + ' ‘'
-										+ driver.findElements(compare_name[0][num])[index].text +'’' + ' 是否一致：' + is_equals)
-
-								assert is_equals
-							}
-
+							assert is_equals
 						} else {
 							driver.findElements(compare_name[0][num])[index].click()
 						}
@@ -311,7 +272,7 @@ class TestUtilities {
 									is_right = true
 								} else if (compare.equals('区间')) {  // search开始时间与结束时间用逗号分割,compare用list
 									String search_end_date = search_name.split(',')[num].split('/')[1]
-									//  只比较开始时间
+									//  只要比较开始时间就好了；结束时间必小等于开始时间
 									assert date_compare_method(search_date, compare_date, '开始')
 
 									assert date_compare_method(search_end_date, compare_date, '结束')
@@ -535,7 +496,7 @@ class TestUtilities {
 			search_count_2 = total_count
 		}
 		for (int i = 0; i <= search_count_1; i++) {  // i=页数
-			if (i == search_count_1 && total_count != 0) {  //  避免多页数据下最后一页遍历中产生索引越界
+			if (i == search_count_1) {  //  避免多页数据下最后一页遍历中产生索引越界
 				//  处理一下总计数是分页条数的倍数的情况
 				search_count_2 = total_count % page_size == 0 ? page_size : total_count % page_size
 			}
@@ -545,7 +506,7 @@ class TestUtilities {
 
 				String[] search_type = search_types.split(',')
 
-				for (int k=0; k<search_type.length; k++) {  // k=查询次数
+				for (int k=0; k<search_type.size(); k++) {  // k=查询次数
 					if (compare!=null) {
 						select_search_type(search_type[k], total_count, search_name, compare_name, j, k, compare)
 					} else {

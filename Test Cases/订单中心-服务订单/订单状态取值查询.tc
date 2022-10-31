@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>订单状态取值查询</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1bee90ee-a097-455a-ad74-651dd05074e7</testCaseGuid>
-</TestCaseEntity>

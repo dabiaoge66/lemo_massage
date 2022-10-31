@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>审核状态搜索框</name>
+   <name>活动名称</name>
    <tag></tag>
-   <elementGuidId>6c3865e1-a4b0-4861-9b7f-8c1beb1d11ef</elementGuidId>
+   <elementGuidId>e5b49448-a27d-471c-9689-510de8324600</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@id=&quot;is_enable&quot;]/input[2]</value>
+         <value>#right_name [name=&quot;query_right_name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -20,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/frames/主页面/评价管理-服务评价</value>
-      <webElementGuid>a9faee52-2d18-41a7-8c13-2f1368528507</webElementGuid>
+      <value>Object Repository/frames/主页面/活动管理-邀请有礼</value>
+      <webElementGuid>1ad3e286-50dd-48d0-80ee-ae3155937b49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

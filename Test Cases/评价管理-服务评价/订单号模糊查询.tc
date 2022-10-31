@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>订单号模糊查询</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ec56ee20-288b-4651-8bb3-c8d31de7a35e</testCaseGuid>
-</TestCaseEntity>

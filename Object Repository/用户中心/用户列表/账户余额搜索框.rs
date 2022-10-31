@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>审核状态搜索框</name>
+   <name>账户余额搜索框</name>
    <tag></tag>
-   <elementGuidId>6c3865e1-a4b0-4861-9b7f-8c1beb1d11ef</elementGuidId>
+   <elementGuidId>4578915e-382d-42a9-9422-8abd34d7ccc0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@id=&quot;is_enable&quot;]/input[2]</value>
+         <value>#balance [name=&quot;start_balance&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -20,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/frames/主页面/评价管理-服务评价</value>
-      <webElementGuid>a9faee52-2d18-41a7-8c13-2f1368528507</webElementGuid>
+      <value>Object Repository/frames/主页面/用户中心-用户列表</value>
+      <webElementGuid>b824fd44-dedb-481b-ab5e-8a66a54e64ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

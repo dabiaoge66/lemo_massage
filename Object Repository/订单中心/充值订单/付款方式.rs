@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>审核状态搜索框</name>
+   <name>付款方式</name>
    <tag></tag>
-   <elementGuidId>6c3865e1-a4b0-4861-9b7f-8c1beb1d11ef</elementGuidId>
+   <elementGuidId>dbaf5205-9b82-4c2e-bb12-28b055014aa6</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;channel&quot;]/input[2]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@id=&quot;is_enable&quot;]/input[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/frames/主页面/评价管理-服务评价</value>
-      <webElementGuid>a9faee52-2d18-41a7-8c13-2f1368528507</webElementGuid>
+      <value>Object Repository/frames/主页面/订单中心-充值订单</value>
+      <webElementGuid>e7778468-74c4-43cc-8d91-288b0fca0a04</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

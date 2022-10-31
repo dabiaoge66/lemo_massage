@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>付款时间区间校验</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fa9b6040-a626-4d38-90ab-473d906d7329</testCaseGuid>
-</TestCaseEntity>

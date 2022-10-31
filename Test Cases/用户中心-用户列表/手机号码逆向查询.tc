@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>手机号码逆向查询</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fdeada80-3b34-46b7-b606-abfa95dc337c</testCaseGuid>
-</TestCaseEntity>
