@@ -13,7 +13,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-String search_data = GlobalVariable.creat_delivery_start + '/' + GlobalVariable.creat_delivery_end
+String search_data = GlobalVariable.create_delivery_start + '/' + GlobalVariable.create_delivery_end
 
 String[] search_name = search_data.split('/')
 

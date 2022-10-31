@@ -6,14 +6,18 @@
    <elementGuidId>6c3865e1-a4b0-4861-9b7f-8c1beb1d11ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;is_enable&quot;]/input[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>//*[@id=&quot;is_enable&quot;]/input[2]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,6 +25,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/frames/主页面/评价管理-服务评价</value>
-      <webElementGuid>a9faee52-2d18-41a7-8c13-2f1368528507</webElementGuid>
+      <webElementGuid>164984d2-947b-40be-847b-217dad10257b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>手机号码模糊查询</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d35ddcc7-0c4a-4aa2-84ac-4817f55bb7cf</testCaseGuid>
+</TestCaseEntity>
