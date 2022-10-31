@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>付款方式取值查询</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f71fcc85-89a4-4afc-9a4d-6ae6d47da707</testCaseGuid>
+</TestCaseEntity>

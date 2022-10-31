@@ -22,6 +22,7 @@ import java.text.SimpleDateFormat
 //String[] search_name = search_data.split(',')
 //
 //System.out.println(search_name[3].split('-')[0])
+
 //String s = '2022-08-12 10:00:00'
 //
 //SimpleDateFormat time_test = new SimpleDateFormat("yyyy-MM-dd")
@@ -53,12 +54,41 @@ import java.text.SimpleDateFormat
 //
 //WebUI.verifyEqual(Exception.printStackTrace([]), NoSuchElementException.getSupportUrl())
 //
+//String time = ''
+for (int year=2021; year<=2022; year++) {
+	String data  = ''
+	data += year + '-'
+	for (int month=1; month<=12; month++) {
+		data += month + '-'
+		int size = 0
+		switch(month) {
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 8:
+			case 10:
+			case 12:
+				size = 31
+				break
+			case 2:
+				size = 28
+				break
+			case 4:
+			case 6:
+			case 9:
+			case 11:
+				size = 30
+				break
+		}
+		for (int date=1; date<=size; date++) {
+			data += date
+			
+			System.out.println(data)
+			
+			data = year + '-' + month + '-'
+		}
+		data = year + '-'
+	}
+}
 
-
-String a = ''
-
-String b = 'abc'
-
-c = a.equals(b)
-
-System.out.println(c)

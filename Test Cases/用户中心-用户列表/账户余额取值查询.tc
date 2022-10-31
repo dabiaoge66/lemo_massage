@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>账户余额取值查询</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a8b98b6-2ec3-4591-a7f8-9c7e89815252</testCaseGuid>
+</TestCaseEntity>

@@ -6,18 +6,24 @@
    <elementGuidId>fbe8cf82-498f-412f-9b1d-abbdff912f8d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;channel&quot;]/input[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;channel&quot;]/input[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/frames/主页面/订单中心-权益卡订单</value>
+      <webElementGuid>8430cf77-1bf0-4386-a7b4-d3e02f5f023e</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

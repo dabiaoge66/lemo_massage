@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>充值订单号逆向查询</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32dde468-8831-4b66-b276-78a5c7e10cee</testCaseGuid>
+</TestCaseEntity>
